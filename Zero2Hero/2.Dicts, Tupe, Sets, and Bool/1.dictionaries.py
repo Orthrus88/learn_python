@@ -79,7 +79,6 @@ print(d.keys())
 # what if I want just all the values?
 print(d.values())
 # what if I want everything
+# note the format that this returns [('k1', 'New Value'), ('k2', 200), ('k3', 300)] if you notice the values are in () which indicates they are tuples
 print(d.items())
 # note that both keys(), valuse(), and items() are functions and will require the ()
-
-
