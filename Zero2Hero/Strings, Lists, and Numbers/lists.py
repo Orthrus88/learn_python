@@ -54,7 +54,7 @@ print(numlist)
 # Example .sort being an inplace function
 inplace = [7,5,1,6,8]
 sortedlist = inplace.sort()
-print(sortedlist)
+print(sortedlist) # this will return None as it is a none type since .sort is an inplace function
 
 # reversing lists
 numlist.reverse()
