@@ -1,9 +1,14 @@
 # number list
 mylist = [1,2,3]
 print(mylist)
+#Another way to make a list
+numlist = [0]*3
+print(numlist)
+
 # mixed data types
 mylist = ["STRING",100,23.2]
 print(mylist)
+
 # Get number of elements in list
 print(len(mylist))
 
