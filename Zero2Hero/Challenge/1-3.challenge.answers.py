@@ -64,6 +64,10 @@ Reassign 'hello' in this nested list to say 'goodbye' instead: list3 = [1,2,[3,4
 Solution:
 '''
 list3 = [1,2,[3,4,'hello']]
+list3[2][2] = 'goodbye'
+print(list3)
+
+list3 = [1,2,[3,4,'hello']]
 list3[2] = [3,4,'goodbye']
 print(list3)
 
@@ -75,10 +79,10 @@ list3[2].append('goodbye')
 print(list3)
 
 '''
-Sort the list: list4 = [5,3,4,6,1]
+Sort the list: list4 = [5,3,2,4,6,1]
 
 Solution:
 '''
-list4 = [5,3,4,6,1]
+list4 = [5,3,2,4,6,1]
 list4.sort()
 print(list4)
