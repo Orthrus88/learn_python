@@ -67,6 +67,8 @@ list3 = [1,2,[3,4,'hello']]
 list3[2][2] = 'goodbye'
 print(list3)
 
+#or
+
 list3 = [1,2,[3,4,'hello']]
 list3[2] = [3,4,'goodbye']
 print(list3)
