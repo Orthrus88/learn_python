@@ -16,4 +16,4 @@ print(2*2) # returns 4 or 2 times 2
 print(3/2) # returns 1.5 or 3 devided by 2
 print(3%2) # returns 1 or 3 mod 2 as the remainder of 3 devided by 2 is 1
 print(2**4) # returns 16 or 2 to the power of 4
-
+print(2/2) # returns 1
