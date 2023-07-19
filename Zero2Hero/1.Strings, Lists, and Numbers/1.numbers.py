@@ -14,9 +14,11 @@
 print('addition')
 print(2+1) # returns 3 or 2 + 1
 
+
 print('')
 print('subtraction')
 print(2-1) # returns 1 or 2 - 1
+
 
 print('')
 print('multiplication')
