@@ -43,7 +43,7 @@ print(myfile.readlines()) # do you notice anything different about the readlines
 # ['This is some more shit to put in here\n', "I'm sorry that I suck at python"] 
 # it looks like a list and what can we do with lists... use the index and lists are mutable.
 myfile.seek(0)
-print(myfile.readlines()[1]) # here we will print the itema at index 0 as that is the only item that really matters for you
+print(myfile.readlines()[1]) # here we will print the item at index 1 as that is the only item that really matters for you
 
 # How to open other files not in your project
 '''
