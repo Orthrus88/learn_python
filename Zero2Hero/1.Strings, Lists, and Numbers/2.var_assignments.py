@@ -11,6 +11,7 @@ Vars are typically all lower case by best practies except in certain situations
 
 Avoid using words that have special meaning in Python like 'list' and 'str' 'int'
 '''
+
 '''
 a = 5
 print(a)
