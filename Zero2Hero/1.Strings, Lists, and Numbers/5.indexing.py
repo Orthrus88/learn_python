@@ -9,6 +9,11 @@ h  e  l  l  o
 
 slicing - sub secion of string
 [start:stop:step]
+mystr = 'hello world'
+print(mystr[2:3:4])
+
+mylist = [1 2 3 4 5 6 7 8]
+mylist[::2]
 '''
 
 #INDEXING AND SLICING WITH STRINGS
