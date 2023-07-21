@@ -1,16 +1,4 @@
 '''
-
-indexing
-h e l l o
-0 1 2 3 4
-
-reverse indexing
-h  e  l  l  o
-0 -4 -3 -2 -1
-
-slicing - sub secion of string
-[start:stop:step]
-
 'hello' or
 "hello"
 

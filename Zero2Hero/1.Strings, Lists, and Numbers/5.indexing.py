@@ -1,3 +1,16 @@
+'''
+indexing
+h e l l o
+0 1 2 3 4
+
+reverse indexing
+h  e  l  l  o
+0 -4 -3 -2 -1
+
+slicing - sub secion of string
+[start:stop:step]
+'''
+
 #INDEXING AND SLICING WITH STRINGS
 
 mystr = 'hello world'
@@ -19,4 +32,16 @@ print(mystr[::2]) # print every other letter in the string
 print(mystr[::3]) # print every 3rd letter in the string
 print(mystr[2:7:2]) # print from index 2 - 7 but print every other string
 print(mystr[::-1]) # reverse the string
+'''
+
+#real world sceniaro
+# lets create a username based off someones first initial and last name utilizing indexing
+'''
+print('Please enter your first name')
+first = input()
+print('Please enter your last name')
+last = input()
+
+username = first[0] + last[:5]
+print('Your new username is ', username)
 '''
